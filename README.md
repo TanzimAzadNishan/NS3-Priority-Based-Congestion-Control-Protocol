@@ -18,8 +18,8 @@ Implemented for IEEE 802.11 network.
 3. PCCP maintains a weighted fairness so that the sink can get different(but in a weighted fair way) throughput
    from its child sensor nodes.
 
-4. PCCP measures congestion level(degree) for each node by calculating **packet inter-arrival time** & **packet 
-   service time** which reflects the present congestion condition.
+4. PCCP measures congestion level(degree) for each node by calculating <b>packet inter-arrival time</b> &
+   <b>packet service time</b> which reflects the present congestion condition.
 
 5. Any node(sink) can inform its child nodes to change transmission rate according to the congestion level.
 ```
