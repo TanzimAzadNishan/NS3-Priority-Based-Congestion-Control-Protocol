@@ -43,6 +43,7 @@ Implemented for IEEE 802.11 network.
 </p>
 
 
+> coverageSide means one side of coverage area
 > With the increase in flows, the network is getting more and more congested which reduces the throughput.
 
 
@@ -54,6 +55,7 @@ Implemented for IEEE 802.11 network.
 </p>
 
 
+> coverageSide means one side of coverage area
 > When we take the normalized value of the throughput, we see the change in value is very small with the increase in flow. It almost remains constant.
 
 
