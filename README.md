@@ -64,7 +64,7 @@ Implemented in ns-3 for **IEEE 802.11 network**.
 ## **Run the Project**
 
 ### Installation
-Download the latest version of ns-3. **ns-3.35** is used in this project.
+Download the latest version of ns-3. ***ns-3.35*** is used in this project.
 Extract the tar.bz2 file. You will get a ns-allinone-3.xx folder, which will have these files and directories.
 
 Then enter the following command:
@@ -80,7 +80,7 @@ Now go to the ns-3.xx directory. Then run the commands:
 
 ### Modification
 
-Find the files in **pccp** folder and copy those in their respective folders mentioned below.
+Find the files in ***pccp*** folder and copy those in their respective folders mentioned below.
 
 ```
 1) src/internet/model/
@@ -108,7 +108,7 @@ Find the files in **pccp** folder and copy those in their respective folders men
 > ./waf --run "scratch/pccpTest --nFlows=20" --cwd="Output/pccpTest"
 
 
-In console, you will see the logs of the simulation. The graphs will be stored in **Output/pccpTest** folder.
+In console, you will see the logs of the simulation. The graphs will be stored in ***Output/pccpTest*** folder.
 
 
 
