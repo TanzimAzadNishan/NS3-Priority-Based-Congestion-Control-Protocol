@@ -1,6 +1,6 @@
 # Priority-Based-Congestion-Control-Protocol(PCCP)
 
-Implemented in ns-3 for **IEEE 802.11 network**.
+Implemented in ***ns-3*** for **IEEE 802.11 network**.
 
 ```diff
 + The algorithm works in the Network layer to control upstream congestion.
@@ -80,7 +80,8 @@ Now go to the ns-3.xx directory. Then run the commands:
 
 ### Modification
 
-Find the files in ***pccp*** folder and copy those in their respective folders mentioned below.
+Find the files in ***pccp*** folder of this repository and copy those in their respective folders of ***ns-3.xx*** 
+mentioned below.
 
 ```
 1) src/internet/model/
