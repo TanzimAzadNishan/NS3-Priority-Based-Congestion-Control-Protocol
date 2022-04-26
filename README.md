@@ -1,6 +1,5 @@
-# Priority-Based-Congestion-Control-Protocol(PCCP)
-
-Implemented in ***ns-3*** for **IEEE 802.11 network**.
+# Priority-Based-Congestion-Control-Protocol
+Implemented in ***ns-3*** for **IEEE 802.11 network**. It is known as **PCCP**.
 
 ```diff
 + The algorithm works in the Network layer to control upstream congestion.
