@@ -29,5 +29,5 @@ Implemented for IEEE 802.11 network.
 ## **Topology**
 <p align="center">
    <img src="https://github.com/TanzimAzadNishan/Priority-Based-Congestion-Control-Protocol/blob/main/Topology.png" 
-        width="200" height="200"/>
+        width="475" height="300"/>
 </p>
