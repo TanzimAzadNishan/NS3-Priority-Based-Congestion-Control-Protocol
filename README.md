@@ -54,7 +54,8 @@ With the increase in flows, the network is getting more and more congested which
 </p>
 
 
-
+When we take the normalized value of the throughput, we see the change in value is very small with the increase
+in flow. It almost remains constant.
 
 
 
