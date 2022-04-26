@@ -78,7 +78,29 @@ Now go to the ns-3.xx directory. Then run the commands:
 ```
 
 
+### Modification
 
+Find the files in **pccp** folder and copy those in their respective folders mentioned below.
+
+```
+1) src/internet/model/
+   a) node-option.h
+   b) node-option.cc
+
+2) src/network/model
+   a) node.h
+   b) node.cc
+
+3) src/traffic-control/model
+   a) queue-disc.cc
+   b) queue-disc.h
+   c) traffic-control-layer.cc
+   d) traffic-control-layer.h
+
+4) build/ns3/net-device.h
+
+5) src/internet/wscript
+```
 
 
 
