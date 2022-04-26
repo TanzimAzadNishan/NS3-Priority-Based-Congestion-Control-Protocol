@@ -61,6 +61,36 @@ Implemented in ns-3 for **IEEE 802.11 network**.
 
 
 
+## **Run the Project**
+
+### Installation
+Download the latest version of ns-3. **ns-3.35** is used in this project.
+Extract the tar.bz2 file. You will get a ns-allinone-3.xx folder, which will have these files and directories.
+
+Then enter the following command:
+> ./build.py --enable-examples --enable-tests
+
+
+Now go to the ns-3.xx directory. Then run the commands:
+```
+./waf clean
+./waf configure --build-profile=debug --enable-examples --enable-tests
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
