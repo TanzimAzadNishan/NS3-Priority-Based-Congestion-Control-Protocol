@@ -43,6 +43,9 @@ Implemented for IEEE 802.11 network.
 </p>
 
 
+With the increase in flows, the network is getting more and more congested which reduces the throughput.
+
+
 
 ### **Normalized Weighted Throughput**
 <p align="center">
