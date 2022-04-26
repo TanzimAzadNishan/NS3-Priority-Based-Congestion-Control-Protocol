@@ -31,3 +31,34 @@ Implemented for IEEE 802.11 network.
    <img src="https://github.com/TanzimAzadNishan/Priority-Based-Congestion-Control-Protocol/blob/main/Topology.png" 
         width="400" height="250"/>
 </p>
+
+
+
+## **Result**
+
+### **Throughput**
+<p align="center">
+   <img src="https://github.com/TanzimAzadNishan/Priority-Based-Congestion-Control-Protocol/blob/main/Throughput.png" 
+        width="400" height="300"/>
+</p>
+
+
+
+### **Normalized Weighted Throughput**
+<p align="center">
+   <img src="https://github.com/TanzimAzadNishan/Priority-Based-Congestion-Control-Protocol/blob/main/Normalized_Throughput.png" 
+        width="400" height="300"/>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
