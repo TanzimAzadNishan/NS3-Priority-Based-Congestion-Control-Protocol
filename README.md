@@ -112,7 +112,8 @@ In console, you will see the logs of the simulation. The graphs will be stored i
 
 
 
-
+## **Developers**
+#### [Md. Tanzim Azad](https://github.com/TanzimAzadNishan)
 
 
 
