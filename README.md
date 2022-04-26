@@ -103,10 +103,12 @@ Find the files in **pccp** folder and copy those in their respective folders men
 ```
 
 
+### Run the Simulation File
+
+> ./waf --run "scratch/pccpTest --nFlows=20" --cwd="Output/pccpTest"
 
 
-
-
+In console, you will see the logs of the simulation. The graphs will be stored in **Output/pccpTest** folder.
 
 
 
