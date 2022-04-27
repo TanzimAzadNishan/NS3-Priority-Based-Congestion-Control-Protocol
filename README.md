@@ -55,7 +55,7 @@ Implemented in ***ns-3*** for **IEEE 802.11 network**.
 ## **Run the Project**
 
 ### Installation
-Download the latest version of ns-3. ***ns-3.35*** is used in this project.
+Download the latest version of ns-3. **```ns-3.35```** is used in this project.
 Extract the tar.bz2 file. You will get a ns-allinone-3.xx folder, which will have these files and directories.
 
 Then enter the following command:
@@ -100,7 +100,7 @@ mentioned below.
 > ./waf --run "scratch/pccpTest --nFlows=20" --cwd="Output/pccpTest"
 
 
-In console, you will see the logs of the simulation. The graphs will be stored in ***Output/pccpTest*** folder.
+In console, you will see the logs of the simulation. The graphs will be stored in **```Output/pccpTest```** folder.
 
 
 <br /><br />
