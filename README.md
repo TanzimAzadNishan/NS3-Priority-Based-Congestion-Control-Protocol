@@ -9,10 +9,10 @@ Implemented in ***ns-3*** for **IEEE 802.11 network**.
 ## **Project Overview**
 
 
-1) Nodes may have different priority due to their function or location and need to gain different throughput. So the algorithm sets priority to each node.<br />
-2) The output rate of a node is controlled by adjusting the scheduling rate which depends on the priority.<br />
-3) PCCP maintains a weighted fairness so that the sink can get different(but in a weighted fair way) throughput from its child sensor nodes.<br />
-4) PCCP measures congestion level(degree) for each node by calculating packet inter-arrival time & packet service time which reflects the present congestion condition.<br />
+1) Nodes may have different priority due to their function or location and need to gain different throughput. So the algorithm sets priority to each node.
+2) The output rate of a node is controlled by adjusting the scheduling rate which depends on the priority.
+3) PCCP maintains a weighted fairness so that the sink can get different(but in a weighted fair way) throughput from its child sensor nodes.
+4) PCCP measures congestion level(degree) for each node by calculating ```packet inter-arrival time``` & ```packet service time``` which reflects the present congestion condition.
 5) Any node(sink) can inform its child nodes to change transmission rate according to the congestion level.
 
 
