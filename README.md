@@ -73,6 +73,14 @@ mentioned below.
 
 5. src/internet/wscript
 
+### **Metrics**
+```Source Traffic```**:** It is locally generated at a certain rate at each node
+```Transit Traffic```**:** It is received from a node's child nodes through its MAC layer.
+```Packet Inter-Arrival Time```**:** The time interval between two sequential arriving packets from either source or for the transit traffic at the MAC layer
+```Packet Service Time```**:** The time interval between when a packet arrives at the MAC layer and when its last bit is successfully transmitted.
+
+
+<br /><br />
 ### **Attributes**
 - **```node-option.h```** - contains the relevant attributes that a node must carry to detect ```congestion``` & ```scheduling rate```.
    - ```m_Ta```**:** Mean packet inter-arrival time of a node
@@ -83,10 +91,14 @@ mentioned below.
    - ```m_gp```**:** Global priority(GP) of a node. GP = SP + TP where TP is the Transit traffic priority of a node
    - ```m_svc```**:** Scheduling rate of a node
    - ```m_parentDegree```**:** Congestion Degree of a node's parent
-   - ```m_parentAddress```**:** Ipv4 address of a node's parent. If the destination device's ipv4 address matches the source node's parent's ipv4 address, the traffic is a upstream traffic.
+   - ```m_parentAddress```**:** Ipv4 address of a node's parent. If the destination device's ipv4 address matches the source node's parent's ipv4 address, the traffic is a upstream traffic.<br />
 
 
 - **```node.h```** - Every node has a ```NodeOption object``` attached to it.
+   - ```m_nodeOption```**:** NodeOption associated with a node
+   - ```m_parent```**:** Parent of a node
+   - ```m_prev```**:** If a packet has just arrived from node A to node B, node A is the previous node of node B.
+   - ```entrTimeInMac```**:** To calculate the service time of the packet just transmitted, this attribute keeps track of the time at which the packet has just entered the MAC layer of the source node.<br />
 
 - **```queue-disc.h```**
 
