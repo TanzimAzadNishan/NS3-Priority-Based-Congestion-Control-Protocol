@@ -58,16 +58,20 @@ mentioned below.
 1. src/internet/model/
    - node-option.h
    - node-option.cc
+
 2. src/network/model
    - node.h
    - node.cc
-<!-- 3) src/traffic-control/model
-   a) queue-disc.cc
-   b) queue-disc.h
-   c) traffic-control-layer.cc
-   d) traffic-control-layer.h
-4) build/ns3/net-device.h
-5) src/internet/wscript -->
+
+3. src/traffic-control/model
+   - queue-disc.cc
+   - queue-disc.h
+   - traffic-control-layer.cc
+   - traffic-control-layer.h
+
+4. build/ns3/net-device.h
+
+5. src/internet/wscript
 
 
 
