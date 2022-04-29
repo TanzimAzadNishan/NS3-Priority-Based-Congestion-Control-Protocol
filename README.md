@@ -101,9 +101,11 @@ mentioned below.
    - ```m_prev```**:** If a packet has just arrived from node A to node B, node A is the previous node of node B.
    - ```entrTimeInMac```**:** To calculate the service time of the packet just transmitted, this attribute keeps track of the time at which the packet has just entered the MAC layer of the source node.<br /><br />
 
-- **```queue-disc.h```**
+- **```net-device.h```**
+   - ```ipAddr```**:** NetDevice is installed on each node. This attribute stores the ipv4 address associated with each node.<br /><br />
 
 - **```traffic-control-layer.h```**
+   - ```pccpQueue```**:** If congestion degree is above a certain threshold at parent node, all the packets sent by the current node is pushed to this queue. Later on, the queued packets are dequeued one by one and sent to their destination.
 
 
 <br /><br />
