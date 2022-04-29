@@ -75,6 +75,9 @@ mentioned below.
 
 ### **Attributes**
 - **```node-option.h```**
+   - ```m_Ta```**:** Mean packet inter-arrival time of a node
+   - ```m_Ts```**:** Mean packet service time of a node
+   - ```m_Offsprings```**:** Number of active offsprings(those who are transmitting packets) of a node
 
 - **```node.h```**
 
