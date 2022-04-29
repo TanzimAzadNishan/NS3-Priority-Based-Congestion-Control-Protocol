@@ -1,5 +1,5 @@
 # Priority-Based-Congestion-Control-Protocol(PCCP)
-Implemented in ***ns-3*** for **IEEE 802.11 network**.
+Implemented in **```ns-3```** for **```IEEE 802.11 network```**.
 
 ```diff
 + The algorithm works in the Network layer to control upstream congestion.
@@ -49,32 +49,12 @@ Implemented in ***ns-3*** for **IEEE 802.11 network**.
 **```coverageSide means one side of coverage area```**
 > When we take the normalized value of the throughput, we see the change in value is very small with the increase in flow. It almost remains constant.
 
-
-
 <br /><br />
-## **Run the Project**
-
-### Installation
-Download the latest version of ns-3. **```ns-3.35```** is used in this project.
-Extract the tar.bz2 file. You will get a ns-allinone-3.xx folder, which will have these files and directories.
-
-Then enter the following command:
-> ./build.py --enable-examples --enable-tests
-
-
-Now go to the ns-3.xx directory. Then run the commands:
-```
-./waf clean
-./waf configure --build-profile=debug --enable-examples --enable-tests
-```
-
-
 ### Modification
 
-Find the files in ***pccp*** folder of this repository and copy those in their respective folders of ***ns-3.xx*** 
+Find the files in **```pccp```** folder of this repository and copy those in their respective folders of **```ns-3.xx```** 
 mentioned below.
 
-```
 1) src/internet/model/
    a) node-option.h
    b) node-option.cc
@@ -92,6 +72,25 @@ mentioned below.
 4) build/ns3/net-device.h
 
 5) src/internet/wscript
+
+
+
+
+<br /><br />
+## **Run the Project**
+
+### Installation
+Download the latest version of ns-3. **```ns-3.35```** is used in this project.
+Extract the tar.bz2 file. You will get a ns-allinone-3.xx folder, which will have these files and directories.
+
+Then enter the following command:
+> ./build.py --enable-examples --enable-tests
+
+
+Now go to the ns-3.xx directory. Then run the commands:
+```
+./waf clean
+./waf configure --build-profile=debug --enable-examples --enable-tests
 ```
 
 
