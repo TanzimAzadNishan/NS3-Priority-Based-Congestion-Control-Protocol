@@ -50,7 +50,7 @@ Implemented in **```ns-3```** for **```IEEE 802.11 network```**.
 > When we take the normalized value of the throughput, we see the change in value is very small with the increase in flow. It almost remains constant.
 
 <br /><br />
-### Modification
+### **Modification**
 
 Find the files in **```pccp```** folder of this repository and copy those in their respective folders of **```ns-3.xx```** 
 mentioned below.
@@ -73,7 +73,14 @@ mentioned below.
 
 5. src/internet/wscript
 
+### **Attributes**
+- **```node-option.h```**
 
+- **```node.h```**
+
+- **```queue-disc.h```**
+
+- **```traffic-control-layer.h```**
 
 
 <br /><br />
