@@ -80,7 +80,9 @@ mentioned below.
 - ```Packet Inter-Arrival Time(ta)```**:** The time interval between two sequential arriving packets from either source or for the transit traffic at the MAC layer
 - ```Packet Service Time(ts)```**:** The time interval between when a packet arrives at the MAC layer and when its last bit is successfully transmitted.
 - ```Congestion Degree(d)```**:** It is intended to reflect the current congestion level at each sensor node. When the inter-arrival time is smaller than the service time, the congestion degree, d is larger than 1 and the node experiences congestion. Otherwise when the congestion degree, d is smaller than 1, the incoming rate is below the outgoing rate, and hence congestion abates.
-```javascript d = ts / ta```
+```javascript 
+   d = ts / ta
+```
 
 
 <br /><br />
