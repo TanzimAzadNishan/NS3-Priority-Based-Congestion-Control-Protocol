@@ -74,7 +74,7 @@ mentioned below.
 5. src/internet/wscript
 
 ### **Attributes**
-- **```node-option.h```**
+- **```node-option.h```** - contains the relevant attributes that a node must carry to detect ```congestion``` & ```scheduling rate```.
    - ```m_Ta```**:** Mean packet inter-arrival time of a node
    - ```m_Ts```**:** Mean packet service time of a node
    - ```m_Offsprings```**:** Actual number of active offsprings(those who are transmitting packets) of a node
@@ -84,10 +84,9 @@ mentioned below.
    - ```m_svc```**:** Scheduling rate of a node
    - ```m_parentDegree```**:** Congestion Degree of a node's parent
    - ```m_parentAddress```**:** Ipv4 address of a node's parent. If the destination device's ipv4 address matches the source node's parent's ipv4 address, the traffic is a upstream traffic.
-   - ```m_pktsSinceLastICD```**:**
 
 
-- **```node.h```**
+- **```node.h```** - Every node has a ```NodeOption object``` attached to it.
 
 - **```queue-disc.h```**
 
