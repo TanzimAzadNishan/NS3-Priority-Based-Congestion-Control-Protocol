@@ -77,7 +77,15 @@ mentioned below.
 - **```node-option.h```**
    - ```m_Ta```**:** Mean packet inter-arrival time of a node
    - ```m_Ts```**:** Mean packet service time of a node
-   - ```m_Offsprings```**:** Number of active offsprings(those who are transmitting packets) of a node
+   - ```m_Offsprings```**:** Actual number of active offsprings(those who are transmitting packets) of a node
+   - ```m_parentOffsprings```**:** What a node knows about the number of active offsprings the parent node has. When some offsprings of the parent node become active or idle, this attribute's value will be different from **m_Offsprings**.
+   - ```m_sp```**:** Source traffic priority(SP) of a node
+   - ```m_gp```**:** Global priority(GP) of a node. GP = SP + TP where TP is the Transit traffic priority of a node
+   - ```m_svc```**:** Scheduling rate of a node
+   - ```m_parentDegree```**:** Congestion Degree of a node's parent
+   - ```m_parentAddress```**:** Ipv4 address of a node's parent. If the destination device's ipv4 address matches the source node's parent's ipv4 address, the traffic is a upstream traffic.
+   - ```m_pktsSinceLastICD```**:**
+
 
 - **```node.h```**
 
