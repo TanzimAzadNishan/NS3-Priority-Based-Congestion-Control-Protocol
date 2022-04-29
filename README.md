@@ -77,8 +77,12 @@ mentioned below.
 ### **Metrics**
 - ```Source Traffic```**:** It is locally generated at a certain rate at each node
 - ```Transit Traffic```**:** It is received from a node's child nodes through its MAC layer.
-- ```Packet Inter-Arrival Time```**:** The time interval between two sequential arriving packets from either source or for the transit traffic at the MAC layer
-- ```Packet Service Time```**:** The time interval between when a packet arrives at the MAC layer and when its last bit is successfully transmitted.
+- ```Packet Inter-Arrival Time(ta)```**:** The time interval between two sequential arriving packets from either source or for the transit traffic at the MAC layer
+- ```Packet Service Time(ts)```**:** The time interval between when a packet arrives at the MAC layer and when its last bit is successfully transmitted.
+- ```Congestion Degree```**:** It is intended to reflect the current congestion level at each sensor node. When the inter-arrival time is smaller than the service time, the congestion degree, d is larger than 1 and the node experiences congestion. Otherwise when the congestion degree, d is smaller than 1, the incoming rate is below the outgoing rate, and hence congestion abates.
+```javascript
+   d = ts / ta
+```
 
 
 <br /><br />
@@ -105,7 +109,11 @@ mentioned below.
    - ```ipAddr```**:** NetDevice is installed on each node. This attribute stores the ipv4 address associated with each node.<br /><br />
 
 - **```traffic-control-layer.h```**
-   - ```pccpQueue```**:** If congestion degree is above a certain threshold at parent node, all the packets sent by the current node is pushed to this queue. Later on, the queued packets are dequeued one by one and sent to their destination.
+   - ```pccpQueue```**:** If congestion degree is above a certain threshold at parent node, all the packets sent by the current node is pushed to this queue. Later on, the queued packets are dequeued one by one and sent to their destination.<br /><br />
+
+- **```traffic-control-layer.cc```** - Traffic Control Layer controls the congestion by maintaining a queue. It sits between the Network layer and the MAC layer. 
+   - ```ScheduleRate()```**:** It adjusts the scheduling rate associated with each node based on the congestion degree, the number of active offsprings of the parent node and the mean packet service time of the node.
+   - ```SrcRate()```**:** The rate at which a node is allowed to transmit packet to its parent node. It depends on ScheduleRate, Source traffic priority(SP), Global Priority(GP).
 
 
 <br /><br />
