@@ -55,19 +55,19 @@ Implemented in **```ns-3```** for **```IEEE 802.11 network```**.
 Find the files in **```pccp```** folder of this repository and copy those in their respective folders of **```ns-3.xx```** 
 mentioned below.
 
-1) src/internet/model/
-   a) node-option.h
-   b) node-option.cc
-2) src/network/model
-   a) node.h
-   b) node.cc
-3) src/traffic-control/model
+1. src/internet/model/
+   - node-option.h
+   - node-option.cc
+2. src/network/model
+   - node.h
+   - node.cc
+<!-- 3) src/traffic-control/model
    a) queue-disc.cc
    b) queue-disc.h
    c) traffic-control-layer.cc
    d) traffic-control-layer.h
 4) build/ns3/net-device.h
-5) src/internet/wscript
+5) src/internet/wscript -->
 
 
 
